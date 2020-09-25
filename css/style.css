@@ -47,7 +47,8 @@ p{
 a{
 color:#B21F50 ;
 font-size: 16px;
-text-decoration: wavy;
+text-decoration-line: underline;
+text-decoration-line: wavy;
 text-align: center;
 }
 
