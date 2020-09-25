@@ -100,7 +100,7 @@ tr{
 }
 
 tbody tr:hover {
-  background: rgba(126,8,32,0.25);
+  background: rgba(126, 8, 32, 0.25);
 
 }
 *:focus{
@@ -108,20 +108,20 @@ border: 3px dashed #417243;
 }
 
 thead tr:first-child th:first-child{
-  border-radius:0 0 0 10px 0 0;
+  border-top-left-radius:10px;
 
 }
 
 thead tr:first-child th:last-child{
-  border-radius:0 0 0 10px 0 0;
+  border-top-right-radius: 10px;
   
 }
 tbody tr:last-child th:first-child{
-  border-radius:0 0 0 10px 0 0;
+  border-bottom-left-radius:10px;
   
 }
 tbody tr:last-child td:last-child{
-  border-radius: 0 0 0 10px 0 0;
+  border-bottom-right-radius: 10px;
 }
 footer p{ 
   color: #FFFFFF
