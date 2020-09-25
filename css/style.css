@@ -19,7 +19,7 @@ body{
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD;
   background-repeat: no-repeat;
-  background-size: 100%;
+  
 
 }
 
@@ -47,8 +47,8 @@ p{
 a{
 color:#B21F50 ;
 font-size: 16px;
-text-decoration-line: underline;
-text-decoration-line: wavy;
+text-decoration: underline;
+text-decoration-style: wavy;
 text-align: center;
 }
 
@@ -69,6 +69,7 @@ table{
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
+  vertical-align:middle;
 
 }
 
