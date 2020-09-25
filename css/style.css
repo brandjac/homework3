@@ -75,6 +75,8 @@ table{
 .rowhead{
 border-top: 2px solid #000000;
 border-right: 2px solid #000000;
+text-align: center;
+padding: 10px;
 }
 
 tr:nth-child(even){
@@ -97,7 +99,7 @@ tr{
 }
 
 tbody tr:hover {
-  background-color: rgba(126,8,48,.25);
+  background: rgba(126,8,32,.25);
 
 }
 *:focus{
@@ -128,5 +130,9 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 }
 
