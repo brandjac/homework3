@@ -56,19 +56,18 @@ table{
   border-spacing: 0;
   margin: 0 auto; 
   border: 2px solid #000000;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
+  border-spacing: 0px;
 
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
   text-align: center;
+  text-transform: uppercase;
 
 }
 
@@ -120,7 +119,7 @@ tbody tr:last-child th:first-child{
   
 }
 tbody tr:last-child td:last-child{
-  border-top-right-radius: 10px
+  border-radius: 0 0 0 10px 0 0;
 }
 footer p{ 
   color: #FFFFFF
